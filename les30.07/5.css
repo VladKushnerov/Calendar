@@ -1,0 +1,25 @@
+main{
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(5, 165, 37);
+    color: white;
+    box-shadow: 5px 5px 20px rgb(192, 0, 0);
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    align-items: center;
+}
+.line{
+    width: 3px;
+    height: 180px;
+    background-color: rgb(255, 153, 0);
+    border-radius: 2px;
+}
+a{
+    color: rgb(107, 6, 102);
+    text-decoration: none;
+}
+a.hover{
+    color: rgb(125, 56, 19);
+}
